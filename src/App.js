@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {WelcomeMessage} from "./jsx/jsx.js";
+import {Clock} from "./jsx/Clock.js";
 import {Welcome} from "./jsx/Welcome.js"
 import ReactDOM from 'react-dom';
 
@@ -14,7 +14,7 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
             <Welcome name="Todd"/>
-            <WelcomeMessage/>
+            <Clock/>
           </p>
           <a
             className="App-link"
