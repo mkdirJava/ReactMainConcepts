@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {WelcomeMessage} from "./jsx/jsx.js";
+import {Welcome} from "./jsx/Welcome.js"
+import ReactDOM from 'react-dom';
 
 class App extends Component {
   render() {
@@ -10,6 +13,8 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
+            <Welcome name="Todd"/>
+            <WelcomeMessage/>
           </p>
           <a
             className="App-link"
@@ -19,6 +24,7 @@ class App extends Component {
           >
             Learn React
           </a>
+
         </header>
       </div>
     );
